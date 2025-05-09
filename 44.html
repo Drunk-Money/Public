@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.cyberserval.qzhddr.service</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.cyberderval.qzhddr.netfilter</key>
+		<true/>
+		<key>com.cyberserval.qzhddr.service</key>
+		<true/>
+		<key>com.cyberserval.qzhddr.service.agent</key>
+		<true/>
+		<key>com.cyberserval.qzhddr.service.antivirus</key>
+		<true/>
+		<key>com.cyberserval.qzhddr.service.application</key>
+		<true/>
+		<key>com.cyberserval.qzhddr.service.scanner</key>
+		<true/>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/Application Support/Qzhddr/QzhddrSrv.app/Contents/MacOS/QzhddrSrv</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/dev/null</string>
+	<key>StandardOutPath</key>
+	<string>/dev/null</string>
+</dict>
+</plist>
+
